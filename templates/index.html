@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electronics AI Chatbot</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="chat-container">
+<div class="chat-header"><h1>⚡ Electronics AI Chatbot</h1><p>Ask questions related to electronics</p></div>
+<div id="chat-box" class="chat-box"><div class="message bot-message">Hello! 👋 I can answer electronics-related questions only.</div></div>
+<div class="input-area"><input id="message-input" type="text" placeholder="Ask an electronics question..." autocomplete="off"><button id="send-button">Send</button></div>
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
